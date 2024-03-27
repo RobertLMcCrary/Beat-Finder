@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color:rgb(50, 50, 50);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 19pt;
+    text-align: center;
+    align-items: center;
+}
+
+.App {
+    align-items: center;
+    text-align: center;
+}
+
+.login-button {
+    width: 300px;
+    height: 75px;
+    color: white;
+    font-size: 15pt;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(0, 203, 0);
+    box-shadow: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-button {
+    width: 300px;
+    height: 75px;
+    color: white;
+    font-size: 20pt;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(226, 31, 31);
+    box-shadow: none;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+.favorites-section {
+    margin: 5vh 10vw;
+    padding: 30px 30px;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+.login-button,
+.logout-button:hover {
+    cursor: pointer;
+}
+
+.login-button-image {
+    width: 40px;
+}
+
+.favorites-section {
+    font-size: 12pt;
+}
+
+.album-image {
+    width: 40vw;
+    height: auto;
+}
